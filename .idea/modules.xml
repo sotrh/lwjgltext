@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lwjgltext.iml" filepath="$PROJECT_DIR$/.idea/modules/lwjgltext.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lwjgltext_main.iml" filepath="$PROJECT_DIR$/.idea/modules/lwjgltext_main.iml" group="lwjgltext" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lwjgltext_test.iml" filepath="$PROJECT_DIR$/.idea/modules/lwjgltext_test.iml" group="lwjgltext" />
+    </modules>
+  </component>
+</project>
