@@ -1,39 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b904a346-b4d5-4c27-b4da-cfcb4a9aec10" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/common/Parser.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/common/Scanner.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/font/FontManager.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/font/StaticTextRenderer.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/font/TextQuadRenderer.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/font/TextQuadShader.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/font/TextQuadVao.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/render/TestOrthoRenderer.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/render/TestOrthoShader.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/render/TestOrthoVAO.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/shader/ShaderUniforms.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/texture/TextureManager.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/liberation_serif.fnt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/liberation_serif.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static-text-shader.frag" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static-text-shader.vert" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/test-ortho-shader.frag" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/test-ortho-shader.vert" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/text-quad-shader.frag" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/text-quad-shader.vert" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/Main.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/Main.kt" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/common/Common.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/common/Common.kt" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/common/IO.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/common/IO.kt" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/common/Resources.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/common/Resources.kt" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/font/BitmapFont.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/font/BitmapFont.kt" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/render/BoxRenderer.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/render/BoxRenderer.kt" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/render/BoxShader.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/render/BoxShader.kt" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/render/BoxVAO.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/render/BoxVAO.kt" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/render/Shader.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/shader/Shader.kt" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/texture/Texture.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/texture/Texture.kt" />
-    </list>
+    <list default="true" id="b904a346-b4d5-4c27-b4da-cfcb4a9aec10" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -878,7 +846,7 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32948583" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32948583" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24921794" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
