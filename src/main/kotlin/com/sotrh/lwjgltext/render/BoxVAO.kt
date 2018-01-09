@@ -56,7 +56,7 @@ class BoxVAO {
         GL30.glBindVertexArray(0)
     }
 
-    fun destroy() {
+    fun cleanup() {
         GL30.glDeleteVertexArrays(vao)
         GL15.glDeleteBuffers(vbo)
         GL15.glDeleteBuffers(ebo)

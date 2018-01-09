@@ -10,7 +10,7 @@ inline fun assertNotNull(obj: Any?, lazyMessage: () -> String = { "Given object 
     myAssert(obj != null, lazyMessage)
 }
 
-fun createUpdateLambda(fps: Double): (block: ()->Unit) -> Unit {
+fun updateLambda(fps: Double): (block: ()->Unit) -> Double {
     val msPerUpdate = 1 / fps
     var previous = GLFW.glfwGetTime()
     var lag = 0.0
@@ -25,9 +25,13 @@ fun createUpdateLambda(fps: Double): (block: ()->Unit) -> Unit {
             block()
             lag -= msPerUpdate
         }
+
+        elapsed
     }
 }
 
 fun rangeUntil(value: Int): IntRange {
     return 0 until value
 }
+
+fun String.toIntOrZero() = this.toIntOrNull() ?: 0

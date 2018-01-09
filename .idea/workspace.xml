@@ -2,20 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b904a346-b4d5-4c27-b4da-cfcb4a9aec10" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/Main.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/common/Common.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/common/IO.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/common/Resources.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/font/BitmapFont.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/render/BoxRenderer.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/render/BoxShader.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/render/BoxVAO.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/render/Shader.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/texture/Texture.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/box-shader.frag" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/box-shader.vert" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/common/Parser.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/common/Scanner.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/font/FontManager.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/font/StaticTextRenderer.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/font/TextQuadRenderer.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/font/TextQuadShader.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/font/TextQuadVao.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/render/TestOrthoRenderer.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/render/TestOrthoShader.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/render/TestOrthoVAO.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/shader/ShaderUniforms.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/texture/TextureManager.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/liberation_serif.fnt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/liberation_serif.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static-text-shader.frag" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static-text-shader.vert" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/test-ortho-shader.frag" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/test-ortho-shader.vert" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/text-quad-shader.frag" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/text-quad-shader.vert" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/Main.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/Main.kt" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/common/Common.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/common/Common.kt" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/common/IO.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/common/IO.kt" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/common/Resources.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/common/Resources.kt" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/font/BitmapFont.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/font/BitmapFont.kt" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/render/BoxRenderer.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/render/BoxRenderer.kt" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/render/BoxShader.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/render/BoxShader.kt" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/render/BoxVAO.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/render/BoxVAO.kt" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/render/Shader.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/shader/Shader.kt" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/texture/Texture.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/texture/Texture.kt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -34,23 +51,25 @@
     </projectState>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
       <file leaf-file-name="Main.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/Main.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="667">
-              <caret line="40" column="16" lean-forward="true" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
+            <state relative-caret-position="754">
+              <caret line="51" column="53" lean-forward="false" selection-start-line="51" selection-start-column="53" selection-end-line="51" selection-end-column="53" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="StaticTextRenderer.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/font/StaticTextRenderer.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="58">
-              <caret line="2" column="5" lean-forward="false" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
-              <folding />
+            <state relative-caret-position="784">
+              <caret line="56" column="20" lean-forward="true" selection-start-line="56" selection-start-column="20" selection-end-line="56" selection-end-column="20" />
+              <folding>
+                <element signature="e#34#507#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -60,10 +79,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin File" />
+        <option value="Kotlin Interface" />
         <option value="Kotlin Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>u_</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -466,18 +491,48 @@
       <list>
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/Common.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/font/BitmapFont.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/common/IO.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/common/Common.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/texture/Texture.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/common/Resources.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/common/BoxRenderer.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/render/BoxShader.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/render/Shader.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/render/BoxRenderer.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/render/BoxVAO.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/Main.kt" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/common/Parser.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/common/Scanner.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/common/Resources.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/font/BoxVao.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/font/TexturedVao.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/render/Shader.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/shader/ShaderDelegates.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/render/BoxShader.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/render/Renderer.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/render/BoxRenderer.kt" />
+        <option value="$PROJECT_DIR$/src/main/resources/textured-shader.vert" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/font/TexturedShader.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/font/TextShader.kt" />
+        <option value="$PROJECT_DIR$/src/main/resources/text-shader.frag" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/font/TextRenderer.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/font/FontManager.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/font/BitmapFont.kt" />
+        <option value="$PROJECT_DIR$/src/main/resources/text-quad-shader.vert" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/texture/TextureManager.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/texture/Texture.kt" />
+        <option value="$PROJECT_DIR$/src/main/resources/text-quad-shader.frag" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/font/TextQuadVao.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/common/Common.kt" />
+        <option value="$PROJECT_DIR$/src/main/resources/TestOrthoShader.vert" />
+        <option value="$PROJECT_DIR$/src/main/resources/TestOtherShader.frag" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/render/TestOrthoShader.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/common/IO.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/shader/Shader.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/shader/ShaderUniforms.kt" />
+        <option value="$PROJECT_DIR$/src/main/resources/test-ortho-shader.frag" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/render/TestOrthoRenderer.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/render/TestOrthoVAO.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/font/TextQuadRenderer.kt" />
+        <option value="$PROJECT_DIR$/src/main/resources/static-text-renderer.vert" />
+        <option value="$PROJECT_DIR$/src/main/resources/static-text-renderer.frag" />
+        <option value="$PROJECT_DIR$/src/main/resources/static-text-shader.frag" />
+        <option value="$PROJECT_DIR$/src/main/resources/static-text-shader.vert" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/Main.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/font/StaticTextRenderer.kt" />
       </list>
     </option>
   </component>
@@ -549,10 +604,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
+      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -602,6 +657,15 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="kotlin" type="462c0819:PsiDirectoryNode" />
               <item name="lwjgltext" type="462c0819:PsiDirectoryNode" />
+              <item name="font" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lwjgltext" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lwjgltext" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="lwjgltext" type="462c0819:PsiDirectoryNode" />
               <item name="render" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -611,7 +675,23 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="kotlin" type="462c0819:PsiDirectoryNode" />
               <item name="lwjgltext" type="462c0819:PsiDirectoryNode" />
+              <item name="shader" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lwjgltext" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lwjgltext" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="lwjgltext" type="462c0819:PsiDirectoryNode" />
               <item name="texture" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lwjgltext" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lwjgltext" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -627,15 +707,17 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
-      <recent name="com.sotrh.lwjgltext.texture" />
       <recent name="com.sotrh.lwjgltext.font" />
+      <recent name="com.sotrh.lwjgltext.texture" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources" />
-      <recent name="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/render" />
       <recent name="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/common" />
+      <recent name="$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/render" />
     </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.sotrh.lwjgltext.shader" />
+      <recent name="com.sotrh.lwjgltext.common" />
       <recent name="com.sotrh.lwjgltext.render" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -779,37 +861,37 @@
     <frame x="-2" y="0" width="1922" height="2106" extended-state="4" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="SFDX" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3300105" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="SFDX" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Salesforce" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Salesforce" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32948583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32948583" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973932" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Log Manager" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24921794" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Log Manager" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3300105" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -821,6 +903,42 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/Main.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#29#436#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/render/TestOrthoRenderer.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="870">
+          <caret line="30" column="24" lean-forward="false" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/render/TestOrthoShader.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="9" column="57" lean-forward="false" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="57" />
+          <folding>
+            <element signature="e#36#175#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/shader/ShaderUniforms.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1479">
+          <caret line="56" column="70" lean-forward="true" selection-start-line="56" selection-start-column="70" selection-end-line="56" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="87">
@@ -833,11 +951,25 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="725">
           <caret line="25" column="18" lean-forward="false" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="14" column="42" lean-forward="true" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/common/Parser.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="34" lean-forward="true" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/render/BoxVAO.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/common/Scanner.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -845,99 +977,269 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/render/BoxShader.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/common/Resources.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        <state relative-caret-position="174">
+          <caret line="6" column="41" lean-forward="true" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
           <folding>
-            <element signature="e#36#167#0" expanded="true" />
+            <element signature="e#36#129#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/shader/ShaderDelegates.kt" />
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/render/Renderer.kt" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/box-shader.frag">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/liberation_serif.fnt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/render/BoxRenderer.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="7" column="36" lean-forward="false" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+        <state relative-caret-position="406">
+          <caret line="14" column="68" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="68" />
           <folding>
-            <element signature="e#36#85#0" expanded="true" />
+            <element signature="e#36#85#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/render/Shader.kt">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.10/c0f90f56ebb568fe5fa4001ee1941b27cb8a2e1f/kotlin-stdlib-1.2.10-sources.jar!/kotlin/Char.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="4" column="28" lean-forward="false" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
-          <folding />
+        <state relative-caret-position="232">
+          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/font/BitmapFont.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/font/FontManager.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="7" column="32" lean-forward="false" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+        <state relative-caret-position="93">
+          <caret line="28" column="34" lean-forward="true" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
+          <folding>
+            <element signature="e#34#231#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/rt.jar!/java/nio/ByteBuffer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="149" column="18" lean-forward="false" selection-start-line="149" selection-start-column="18" selection-end-line="149" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/texture/TextureManager.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="12" column="14" lean-forward="false" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/texture/Texture.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="12" column="3" lean-forward="false" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+        <state relative-caret-position="580">
+          <caret line="20" column="41" lean-forward="true" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
           <folding>
-            <element signature="e#37#358#0" expanded="true" />
+            <element signature="e#37#137#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/common/Resources.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/liberation_serif.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/font/BitmapFont.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="5" column="32" lean-forward="false" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+        <state relative-caret-position="522">
+          <caret line="18" column="130" lean-forward="false" selection-start-line="18" selection-start-column="130" selection-end-line="18" selection-end-column="130" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/common/Common.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
-          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+        <state relative-caret-position="348">
+          <caret line="12" column="10" lean-forward="true" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/render/BoxVAO.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-753">
+          <caret line="8" column="6" lean-forward="false" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/box-shader.vert">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/shader/Shader.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="19" column="33" lean-forward="false" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/common/IO.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="725">
-          <caret line="25" column="48" lean-forward="false" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
+        <state relative-caret-position="203">
+          <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/font/TextQuadShader.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="6" column="19" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/render/BoxShader.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="8" column="36" lean-forward="false" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/font/TextQuadVao.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="61" column="13" lean-forward="false" selection-start-line="61" selection-start-column="13" selection-end-line="61" selection-end-column="13" />
           <folding>
-            <element signature="e#36#145#0" expanded="true" />
+            <element signature="e#34#266#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/box-shader.frag">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/text-quad-shader.vert">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="17" column="6" lean-forward="true" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/render/TestOrthoShader.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="10" column="57" lean-forward="true" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="57" />
+          <folding>
+            <element signature="e#36#175#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/shader/ShaderUniforms.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1004">
+          <caret line="56" column="47" lean-forward="false" selection-start-line="56" selection-start-column="42" selection-end-line="56" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/render/TestOrthoVAO.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="610">
+          <caret line="49" column="85" lean-forward="true" selection-start-line="49" selection-start-column="85" selection-end-line="49" selection-end-column="85" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/test-ortho-shader.vert">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/test-ortho-shader.frag">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/render/TestOrthoRenderer.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static-text-shader.frag">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="10" column="67" lean-forward="true" selection-start-line="10" selection-start-column="67" selection-end-line="10" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static-text-shader.vert">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/text-quad-shader.frag">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="261">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/font/TextQuadRenderer.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="33" column="48" lean-forward="true" selection-start-line="33" selection-start-column="48" selection-end-line="33" selection-end-column="48" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/Main.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="40" column="16" lean-forward="true" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
+        <state relative-caret-position="754">
+          <caret line="51" column="53" lean-forward="false" selection-start-line="51" selection-start-column="53" selection-end-line="51" selection-end-column="53" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/sotrh/lwjgltext/font/StaticTextRenderer.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="2" column="5" lean-forward="false" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
-          <folding />
+        <state relative-caret-position="784">
+          <caret line="56" column="20" lean-forward="true" selection-start-line="56" selection-start-column="20" selection-end-line="56" selection-end-column="20" />
+          <folding>
+            <element signature="e#34#507#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

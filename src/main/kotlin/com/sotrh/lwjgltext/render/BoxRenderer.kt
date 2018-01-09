@@ -24,8 +24,8 @@ class BoxRenderer {
         vao.unbind()
     }
 
-    fun destroy() {
-        vao.destroy()
-        shader.destroy()
+    fun cleanup() {
+        vao.cleanup()
+        shader.cleanup()
     }
 }

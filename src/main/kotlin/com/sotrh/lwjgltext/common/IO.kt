@@ -1,16 +1,25 @@
 package com.sotrh.lwjgltext.common
 
 import org.lwjgl.BufferUtils
+import java.io.BufferedReader
 import java.io.File
+import java.io.InputStreamReader
 import java.nio.ByteBuffer
 import java.nio.channels.Channels
 
 fun loadStringFromFile(filename: String): String {
     val url = Thread.currentThread().contextClassLoader.getResource(filename)
-    val file = File(url.file)
+    val file = File(url?.file)
     myAssert(file.isFile) {"File \"$filename\" not found"}
 
     return file.readText()
+}
+
+
+fun loadBufferedReaderFromFile(filename: String): BufferedReader {
+    val stream = Thread.currentThread().contextClassLoader.getResourceAsStream(filename)
+    assertNotNull(stream) { "File \"$filename\" not found" }
+    return BufferedReader(InputStreamReader(stream))
 }
 
 fun loadByteBufferFromFile(filename: String, bufferSize: Int = 1024): ByteBuffer {

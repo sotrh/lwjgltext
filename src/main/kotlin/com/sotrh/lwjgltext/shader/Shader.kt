@@ -1,6 +1,9 @@
-package com.sotrh.lwjgltext.render
+package com.sotrh.lwjgltext.shader
 
 import com.sotrh.lwjgltext.common.myAssert
+import org.joml.Vector2f
+import org.joml.Vector3f
+import org.joml.Vector4f
 import org.lwjgl.opengl.GL11
 import org.lwjgl.opengl.GL20
 import org.lwjgl.opengl.GL30
@@ -14,13 +17,13 @@ open class Shader(vertexShaderSource: String, fragmentShaderSource: String) {
         GL20.glShaderSource(vertexShader, vertexShaderSource)
         GL20.glCompileShader(vertexShader)
         var status = GL20.glGetShaderi(vertexShader, GL20.GL_COMPILE_STATUS)
-        myAssert(status == GL11.GL_TRUE) { GL20.glGetShaderInfoLog(vertexShader) }
+        myAssert(status == GL11.GL_TRUE) { "Vertex Shader: ${GL20.glGetShaderInfoLog(vertexShader)}" }
 
         val fragmentShader = GL20.glCreateShader(GL20.GL_FRAGMENT_SHADER)
         GL20.glShaderSource(fragmentShader, fragmentShaderSource)
         GL20.glCompileShader(fragmentShader)
         status = GL20.glGetShaderi(fragmentShader, GL20.GL_COMPILE_STATUS)
-        myAssert(status == GL11.GL_TRUE) { GL20.glGetShaderInfoLog(fragmentShader) }
+        myAssert(status == GL11.GL_TRUE) { "Fragment Shader: ${GL20.glGetShaderInfoLog(fragmentShader)}" }
 
         GL20.glAttachShader(program, vertexShader)
         GL20.glAttachShader(program, fragmentShader)
@@ -39,11 +42,11 @@ open class Shader(vertexShaderSource: String, fragmentShaderSource: String) {
         isBound = true
     }
 
-    protected fun assertBound() {
+    fun assertBound() {
         myAssert(isBound)
     }
 
-    protected fun assertNotBound() {
+    fun assertNotBound() {
         myAssert(!isBound)
     }
 
@@ -53,7 +56,7 @@ open class Shader(vertexShaderSource: String, fragmentShaderSource: String) {
         isBound = false
     }
 
-    fun destroy() {
+    fun cleanup() {
         GL20.glDeleteProgram(program)
         program = 0
     }
